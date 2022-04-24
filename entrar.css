@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: white;
+    border: none;
+
+}
+
+textarea:focus, input:focus {
+    outline: none;
+
+
+}
+
+a, label {
+    font-size: .8rem;
+}
+
+a:hover {
+    color:#EC0089;
+    transition: .5s;
+}
+
+/* Container Login */
+
+#login-container {
+    background-color:#501777;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 50px;
+    margin-top: 10vh;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* Forms */
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+input {
+    border-bottom: 2px solid purple;
+    padding: 8px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border-bottom: 2px solid #EC0089;
+}
+
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    color:#501777;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color:#EC0089;
+    transition: .5s;
+}
+
+#register-container p {
+    margin-bottom: 10px;
+}
+
+#return {
+    margin-top: 20px;
+    text-align: right;
+}
