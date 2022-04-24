@@ -8,6 +8,14 @@
 
 }
 
+body{
+    background-image: url('img/textura.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 textarea:focus, input:focus {
     outline: none;
 
