@@ -25,7 +25,22 @@ a:hover {
     color: #EC0089
 }
 
-.btn a{
+
+.btn {
+    width: 7%;
+    margin-left: 90%;
+    margin-top: 1%;
+    margin-right: 10%;
+    text-align: center;
     background-color: #501777;
-    width: 200px;
+    color: white;
+    border-radius: 7px;
+
 }
+
+.btn:hover{
+    background-color: white;
+    color: #EC0089;
+    cursor: pointer;
+}
+

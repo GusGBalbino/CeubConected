@@ -4,6 +4,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
 <link href="style.css" rel="stylesheet" />
+<link href="feed.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -28,3 +29,44 @@
             </div><!--menu-->
         </div><!--center-->
     </header>
+</body>
+
+
+<body>
+    <main class="main">
+  
+      <!-- Formulário de postagem -->
+      <div class="newPost">
+  
+        <div class="infoUser">
+          <div class="imgUser">
+          </div>
+          <strong>Bruna Medeiros</strong>
+        </div>
+  
+        <form action="" class="formPost" id="formPost">
+          <textarea name="textarea" placeholder="No que está pensando hoje?" id="textarea"></textarea>
+          <div class="iconsAndButton">
+            <div class="icons">
+              <button class="btnFileForm">
+                <img src="./img/img.svg" alt="Adicionar uma imagem">
+              </button>
+              <button class="btnFileForm">
+                <img src="./img/gif.svg" alt="Adicionar um gif">
+              </button>
+              <button class="btnFileForm">
+                <img src="./img/video.svg" alt="Adicionar um vídeo">
+              </button>
+            </div>
+  
+            <button type="submit" id="botao" class="btnSubmitForm">Publicar</button>
+          </div>
+        </form>
+      </div>
+  
+      <ul class="posts" id="posts"></ul>
+  
+    </main>
+    <script type="module" src="/CeubConected/FormPost.js"></script>
+</body>
+</html>
