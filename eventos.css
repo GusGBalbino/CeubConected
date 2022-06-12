@@ -25,4 +25,7 @@ a:hover {
     color: #EC0089
 }
 
-
+.btn a{
+    background-color: #501777;
+    width: 200px;
+}

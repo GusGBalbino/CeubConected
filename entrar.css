@@ -94,3 +94,7 @@ input[type="submit"]:hover {
     margin-top: 20px;
     text-align: right;
 }
+
+input[type="email"], input[type="password"] {
+    color: black
+}
